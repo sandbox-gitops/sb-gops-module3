@@ -14,9 +14,11 @@ clone this project and init submodule
 ~~~
 git clone https://github.com/sandbox-gitops/sb-gops-module3.git
 
-git submodule init
-
-git submodule update
+git submodule update --init --recursive
+~~~
+or
+~~~
+git clone --recurse-submodules https://github.com/sandbox-gitops/sb-gops-module3.git
 ~~~
 
 check status from submodules
