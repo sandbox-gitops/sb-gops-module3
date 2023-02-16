@@ -10,8 +10,13 @@ git add .gitmodules  path/
 git commit -am "added submodule"
 ~~~
 
-clone this project
+clone this project and init submodule
 ~~~
+git clone https://github.com/sandbox-gitops/sb-gops-module3.git
+
+git submodule init
+
+git submodule update
 ~~~
 
 check status from submodules
