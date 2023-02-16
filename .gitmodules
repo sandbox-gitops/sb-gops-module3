@@ -1,0 +1,4 @@
+[submodule "path/to/other"]
+	path = path/to/other
+	url = https://github.com/sandbox-gitops/sb-gops-module1.git
+	branch = main
