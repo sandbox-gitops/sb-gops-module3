@@ -21,6 +21,15 @@ or
 git clone --recurse-submodules https://github.com/sandbox-gitops/sb-gops-module3.git
 ~~~
 
+show also submodule diff/status
+~~~
+git config diff.submodule log
+git  diff
+
+git config status.submodulesummary 1
+git status
+~~~
+
 check status from submodules
 ~~~
 git submodule foreach git status
